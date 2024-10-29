@@ -1,0 +1,42 @@
+body {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+    font-family: 'Georgia', serif;
+    text-align: center;
+    line-height: 1.6;
+    background-image: url('background.jpg'); /* Adicione uma imagem de fundo sombria */
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 30px;
+    border: 2px solid #ff5c5c;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #ff5c5c;
+    background: rgba(30, 30, 30, 0.8);
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #ff5c5c;
+}
+
+button {
+    background-color: #ff5c5c;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 1.1em;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: #ff1c1c;
+    transform: scale(1.05);
+}
